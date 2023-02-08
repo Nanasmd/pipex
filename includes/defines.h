@@ -19,7 +19,7 @@
  * MESSAGES
 \******************************************************************************/
 
-# define HELP_MSG "Welcome to lpaulo-m's pipex!\n\
+# define HELP_MSG "Welcome to nasamadi's pipex!\n\
 \n\
 USAGE:\n\
 	./pipex file1 \"cmd1\" \"cmd2\" file2\n\
