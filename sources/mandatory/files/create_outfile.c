@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 int	create_outfile_or_die(t_pipex *ctl)

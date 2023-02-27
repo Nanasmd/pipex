@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 static void	subvert_spaces(char *str)

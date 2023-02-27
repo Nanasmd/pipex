@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 void	stdout_to_pipe(int pipe_fds[2])

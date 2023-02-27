@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 char	**split_command_or_die(char *raw_command)

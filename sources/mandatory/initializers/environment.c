@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 static void	set_paths(t_pipex *ctl)

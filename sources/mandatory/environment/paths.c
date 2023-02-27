@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 char	**get_paths_or_die(char **envp)

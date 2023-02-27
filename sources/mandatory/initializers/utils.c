@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 void	command_or_die(t_pipex *ctl, char *raw_cmd)

@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 void	die_if_null(void *ptr)

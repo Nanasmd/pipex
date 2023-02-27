@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 static char	*get_clean_path(char **envp)

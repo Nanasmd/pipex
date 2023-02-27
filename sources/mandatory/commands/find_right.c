@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 char	*find_right_executable_or_die(t_pipex *ctl)

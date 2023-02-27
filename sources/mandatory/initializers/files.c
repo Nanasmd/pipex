@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 void	initialize_outfile(t_pipex *ctl)

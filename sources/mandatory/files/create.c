@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 int	create_file_or_die(char *path)

@@ -1,3 +1,4 @@
+
 #include <pipex_bonus.h>
 
 void	file_to_stdin(int infile_fd)

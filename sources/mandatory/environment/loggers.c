@@ -1,3 +1,4 @@
+
 #include <pipex.h>
 
 void	log_path(t_pipex *ctl)
