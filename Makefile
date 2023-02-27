@@ -38,39 +38,7 @@ M_SOURCES_PATH = $(SOURCES_PATH)/mandatory
 M_OBJECTS_PATH = $(OBJECTS_PATH)/mandatory
 
 # M_SOURCES = $(wildcard $(M_SOURCES_PATH)/**/*.c) $(wildcard $(M_SOURCES_PATH)/*.c)
-M_SOURCES = ./sources/mandatory/children/forks.c\
-./sources/mandatory/children/left.c\
-./sources/mandatory/children/right.c\
-./sources/mandatory/cleanup/memory.c\
-./sources/mandatory/commands/execute.c\
-./sources/mandatory/commands/find.c\
-./sources/mandatory/commands/find_left.c\
-./sources/mandatory/commands/find_right.c\
-./sources/mandatory/commands/loggers.c\
-./sources/mandatory/commands/split.c\
-./sources/mandatory/commands/tokenize.c\
-./sources/mandatory/environment/loggers.c\
-./sources/mandatory/environment/path.c\
-./sources/mandatory/environment/paths.c\
-./sources/mandatory/errors/arguments.c\
-./sources/mandatory/errors/die_1.c\
-./sources/mandatory/errors/die_2.c\
-./sources/mandatory/errors/print_error.c\
-./sources/mandatory/files/close.c\
-./sources/mandatory/files/create.c\
-./sources/mandatory/files/create_outfile.c\
-./sources/mandatory/files/open.c\
-./sources/mandatory/files/open_infile.c\
-./sources/mandatory/initializers/children.c\
-./sources/mandatory/initializers/environment.c\
-./sources/mandatory/initializers/files.c\
-./sources/mandatory/initializers/fourex.c\
-./sources/mandatory/initializers/left.c\
-./sources/mandatory/initializers/right.c\
-./sources/mandatory/initializers/utils.c\
-./sources/mandatory/pipes/core.c\
-./sources/mandatory/pipes/redirections.c\
-./sources/mandatory/fourex.c
+M_SOURCES = ./sources/mandatory/children/forks.c ./sources/mandatory/children/left.c ./sources/mandatory/children/right.c ./sources/mandatory/cleanup/memory.c ./sources/mandatory/commands/execute.c ./sources/mandatory/commands/find.c ./sources/mandatory/commands/find_left.c ./sources/mandatory/commands/find_right.c ./sources/mandatory/commands/loggers.c ./sources/mandatory/commands/split.c ./sources/mandatory/commands/tokenize.c ./sources/mandatory/environment/loggers.c ./sources/mandatory/environment/path.c ./sources/mandatory/environment/paths.c ./sources/mandatory/errors/arguments.c ./sources/mandatory/errors/die_1.c ./sources/mandatory/errors/die_2.c ./sources/mandatory/errors/print_error.c ./sources/mandatory/files/close.c ./sources/mandatory/files/create.c ./sources/mandatory/files/create_outfile.c ./sources/mandatory/files/open.c ./sources/mandatory/files/open_infile.c ./sources/mandatory/initializers/children.c ./sources/mandatory/initializers/environment.c ./sources/mandatory/initializers/files.c ./sources/mandatory/initializers/fourex.c ./sources/mandatory/initializers/left.c ./sources/mandatory/initializers/right.c ./sources/mandatory/initializers/utils.c ./sources/mandatory/pipes/core.c ./sources/mandatory/pipes/redirections.c ./sources/mandatory/fourex.c
 
 M_OBJECTS = $(patsubst $(M_SOURCES_PATH)/%.c, $(M_OBJECTS_PATH)/%.o, $(M_SOURCES))
 M_OBJECT_DIRECTORIES = $(sort $(dir $(M_OBJECTS)))
@@ -114,35 +82,7 @@ B_SOURCES_PATH = $(SOURCES_PATH)/bonus
 B_OBJECTS_PATH = $(OBJECTS_PATH)/bonus
 
 # B_SOURCES = $(wildcard $(B_SOURCES_PATH)/**/*.c) $(wildcard $(B_SOURCES_PATH)/*.c)
-B_SOURCES = ./sources/bonus/children/child.c\
-./sources/bonus/children/forks.c\
-./sources/bonus/children/hdoc.c\
-./sources/bonus/cleanup/memory.c\
-./sources/bonus/commands/execute.c\
-./sources/bonus/commands/find.c\
-./sources/bonus/commands/or_die.c\
-./sources/bonus/commands/path.c\
-./sources/bonus/commands/paths.c\
-./sources/bonus/commands/split.c\
-./sources/bonus/commands/tokenize.c\
-./sources/bonus/errors/arguments.c\
-./sources/bonus/errors/die_1.c\
-./sources/bonus/errors/die_2.c\
-./sources/bonus/errors/print_error.c\
-./sources/bonus/files/close.c\
-./sources/bonus/files/create.c\
-./sources/bonus/files/create_outfile.c\
-./sources/bonus/files/open.c\
-./sources/bonus/files/open_infile.c\
-./sources/bonus/initializers/control.c\
-./sources/bonus/initializers/hdoc.c\
-./sources/bonus/initializers/nex.c\
-./sources/bonus/pipes/core.c\
-./sources/bonus/pipes/file.c\
-./sources/bonus/pipes/stdin.c\
-./sources/bonus/pipes/stdout.c\
-./sources/bonus/pipes/write.c\
-./sources/bonus/nex.c
+B_SOURCES = ./sources/bonus/children/child.c ./sources/bonus/children/forks.c ./sources/bonus/children/hdoc.c ./sources/bonus/cleanup/memory.c ./sources/bonus/commands/execute.c ./sources/bonus/commands/find.c ./sources/bonus/commands/or_die.c ./sources/bonus/commands/path.c ./sources/bonus/commands/paths.c ./sources/bonus/commands/split.c ./sources/bonus/commands/tokenize.c ./sources/bonus/errors/arguments.c ./sources/bonus/errors/die_1.c ./sources/bonus/errors/die_2.c ./sources/bonus/errors/print_error.c ./sources/bonus/files/close.c ./sources/bonus/files/create.c ./sources/bonus/files/create_outfile.c ./sources/bonus/files/open.c ./sources/bonus/files/open_infile.c ./sources/bonus/initializers/control.c ./sources/bonus/initializers/hdoc.c ./sources/bonus/initializers/nex.c ./sources/bonus/pipes/core.c ./sources/bonus/pipes/file.c ./sources/bonus/pipes/stdin.c ./sources/bonus/pipes/stdout.c ./sources/bonus/pipes/write.c ./sources/bonus/nex.c
 
 B_OBJECTS = $(patsubst $(B_SOURCES_PATH)/%.c, $(B_OBJECTS_PATH)/%.o, $(B_SOURCES))
 B_OBJECT_DIRECTORIES = $(sort $(dir $(B_OBJECTS)))
