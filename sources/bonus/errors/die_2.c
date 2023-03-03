@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#include <pipex_bonus.h>
-=======
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -9,12 +6,11 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 02:08:29 by nasamadi          #+#    #+#             */
-/*   Updated: 2023/03/03 02:08:30 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/03/03 03:54:09 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../../includes/pipex_bonus.h"
->>>>>>> master
 
 void	die5(char *location, char *message, int exit_status)
 {

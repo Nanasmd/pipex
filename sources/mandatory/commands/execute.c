@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-#include <pipex.h>
-=======
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -10,12 +6,11 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 02:15:50 by nasamadi          #+#    #+#             */
-/*   Updated: 2023/03/03 02:15:51 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/03/03 03:55:48 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../../includes/pipex.h"
->>>>>>> master
 
 void	execute_or_die(char *command_path, char **split_cmd, char **envp)
 {

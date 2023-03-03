@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-
-#include <pipex_bonus.h>
-
-void	str_to_pipe(int pipe_fds[2], char *str)
-{
-	write(pipe_fds[PIPE_WRITE], str, ft_strlen(str));
-=======
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -14,7 +6,7 @@ void	str_to_pipe(int pipe_fds[2], char *str)
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 03:14:17 by nasamadi          #+#    #+#             */
-/*   Updated: 2023/03/03 03:14:20 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/03/03 03:54:56 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +22,4 @@ void	str_to_pipe(int pipe_fds[2], char *str)
 		perror("write");
 		exit(EXIT_FAILURE);
 	}
->>>>>>> master
 }

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#include <pipex_bonus.h>
-=======
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
@@ -9,12 +6,11 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 02:07:54 by nasamadi          #+#    #+#             */
-/*   Updated: 2023/03/03 02:07:55 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/03/03 03:53:19 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../../includes/pipex_bonus.h"
->>>>>>> master
 
 static char	*build_executable_path(char *path, char *command)
 {
