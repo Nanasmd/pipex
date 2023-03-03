@@ -1,5 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   nex.c                                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/03/03 02:10:42 by nasamadi          #+#    #+#             */
+/*   Updated: 2023/03/03 03:44:50 by nasamadi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include <pipex_bonus.h>
+#include "../../includes/pipex_bonus.h"
 
 static void	initialize(t_pipex	*ctl, int argc, char **argv, char **envp)
 {

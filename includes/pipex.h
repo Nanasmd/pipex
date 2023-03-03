@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   pipex.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/28 01:15:40 by nasamadi          #+#    #+#             */
+/*   Updated: 2023/03/03 03:44:46 by nasamadi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PIPEX_H
 # define PIPEX_H
 
-# include <defines.h>
+# include "defines.h"
+# include "libft.h"
 # include <fcntl.h>
-# include <libft.h>
 # include <stdio.h>
 # include <sys/wait.h>
 
@@ -46,6 +58,11 @@ typedef struct s_pipex
 
 int		fourex(int argc, char **argv, char **envp);
 
+<<<<<<< HEAD
+=======
+int		main(int argc, char **argv, char **envp);
+
+>>>>>>> master
 /******************************************************************************\
  * INITIALIZERS
 \******************************************************************************/

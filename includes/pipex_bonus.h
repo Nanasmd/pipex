@@ -1,9 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   pipex_bonus.h                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/03/03 00:09:09 by nasamadi          #+#    #+#             */
+/*   Updated: 2023/03/03 03:44:43 by nasamadi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PIPEX_BONUS_H
 # define PIPEX_BONUS_H
 
-# include <defines_bonus.h>
+# include "defines_bonus.h"
+# include "libft.h"
 # include <fcntl.h>
-# include <libft.h>
 # include <stdio.h>
 # include <sys/wait.h>
 
