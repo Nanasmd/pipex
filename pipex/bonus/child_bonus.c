@@ -6,7 +6,7 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 10:40:00 by vmourtia          #+#    #+#             */
-/*   Updated: 2023/04/03 17:26:19 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/04/04 12:02:04 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -165,8 +165,8 @@ void	child(t_pipex *pipex, char **av, char **envp)
 		dup2(pipex.pipefd[pipex.index][0], 1);
 */
 
-/*
-	After the ones we used are duplicated,
+
+/*	After the ones we used are duplicated,
 	all fds should be closed!
 
 	Example:

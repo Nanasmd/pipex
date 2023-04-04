@@ -6,7 +6,7 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 13:32:39 by valentin          #+#    #+#             */
-/*   Updated: 2023/04/03 18:17:55 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/04/04 12:01:13 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,6 @@ void	free_memory(t_list **memory)
 	}
 }
 
-/*
-	Example:
-*/
 void	clear_memory(t_list **memory)
 {
 	int		i;
@@ -39,7 +36,7 @@ void	clear_memory(t_list **memory)
 
 	cleared_node = malloc(sizeof(*cleared_node));
 	if (memory == NULL || cleared_node == NULL)
-		return;
+		return ;
 	cleared_node->next = NULL;
 	last = get_last_memory_element(*memory);
 	i = 0;
@@ -49,7 +46,7 @@ void	clear_memory(t_list **memory)
 		i++;
 	cleared_node->str = malloc(sizeof(char) * (ft_strlen(last->str) - i + 1));
 	if (cleared_node == NULL)
-		return;
+		return ;
 	j = 0;
 	while (last->str[i])
 		cleared_node->str[j++] = last->str[i++];

@@ -6,7 +6,7 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 13:36:48 by valentin          #+#    #+#             */
-/*   Updated: 2023/04/03 18:18:07 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/04/04 12:01:32 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 t_list	*get_last_memory_element(t_list *memory)
 {
 	t_list	*last;
-	
+
 	if (memory == NULL)
 		return (NULL);
 	last = memory;
@@ -28,7 +28,7 @@ t_list	*memory_new_element(char *buffer, size_t nbytes)
 {
 	t_list	*new_element;
 	size_t	i;
-	
+
 	new_element = malloc(sizeof(*new_element));
 	if (new_element == NULL || buffer == NULL)
 		return (NULL);
@@ -50,15 +50,15 @@ void	add_back_to_memory(t_list **memory, t_gnl *gnl)
 {
 	t_list	*new_element;
 	t_list	*last;
-	
+
 	new_element = memory_new_element(gnl->buffer, gnl->nbytes);
 	if (new_element == NULL)
-		return;
+		return ;
 	last = get_last_memory_element(*memory);
 	if (last == NULL)
 	{
 		*memory = new_element;
-		return;
+		return ;
 	}
 	last->next = new_element;
 }

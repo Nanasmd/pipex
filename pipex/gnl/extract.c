@@ -6,7 +6,7 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/02 13:33:51 by valentin          #+#    #+#             */
-/*   Updated: 2023/04/03 18:17:59 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/04/04 12:01:20 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static void	alloc_line(t_list *memory, t_gnl *gnl)
 {
 	int	i;
 	int	line_length;
-	
+
 	line_length = 0;
 	while (memory)
 	{
@@ -26,7 +26,7 @@ static void	alloc_line(t_list *memory, t_gnl *gnl)
 			if (memory->str[i] == '\n')
 			{
 				line_length++;
-				break;
+				break ;
 			}
 			line_length++;
 			i++;
@@ -51,7 +51,7 @@ static void	fill_line(t_list *memory, t_gnl *gnl)
 			if (memory->str[j] == '\n')
 			{
 				i++;
-				break;
+				break ;
 			}
 			i++;
 			j++;
@@ -64,9 +64,9 @@ static void	fill_line(t_list *memory, t_gnl *gnl)
 void	extract_line(t_list *memory, t_gnl *gnl)
 {
 	if (memory == NULL)
-		return;
+		return ;
 	alloc_line(memory, gnl);
 	if (gnl->line == NULL)
-		return;
+		return ;
 	fill_line(memory, gnl);
 }

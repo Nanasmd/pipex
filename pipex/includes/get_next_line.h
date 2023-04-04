@@ -6,7 +6,7 @@
 /*   By: nasamadi <nasamadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 10:18:54 by valentin          #+#    #+#             */
-/*   Updated: 2023/04/03 18:24:24 by nasamadi         ###   ########.fr       */
+/*   Updated: 2023/04/04 09:25:33 by nasamadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <signal.h>
 
 # ifndef BUFFER_SIZE
-# define BUFFER_SIZE 10
+#  define BUFFER_SIZE 10
 # endif
 
 /*
